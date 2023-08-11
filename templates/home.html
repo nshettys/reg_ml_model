@@ -1,3 +1,15 @@
 <h1>
     Hello World!!!
 </h1>
+<form action = "http://127.0.0.1:5000/new_predict" method="post">
+    <input type="text" name="MedInc" placeholder="MedInc" /> <br>
+    <input type="text" name="HouseAge" placeholder="HouseAge" /> <br>
+    <input type="text" name="AveRooms" placeholder="AveRooms" /> <br>
+    <input type="text" name="AveBedrms" placeholder="AveBedrms" /> <br>
+    <input type="text" name="Population" placeholder="Population" /> <br>
+    <input type="text" name="AveOccup" placeholder="AveOccup" /> <br>
+    <input type="text" name="Latitude" placeholder="Latitude" /> <br>
+    <input type="text" name="Longitude" placeholder="Longitude" /> <br>
+    <button type="submit"> predict </button>
+</form>
+{{prediction_text}}
