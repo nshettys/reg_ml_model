@@ -17,4 +17,6 @@ git config  --global user.email
 
 git add . 
 
-git commit -m "Commit Message"
+git commit -m "Commit Message" //goes to staging
+
+git push origin main  //where origin is the staging area
