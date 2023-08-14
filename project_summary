@@ -1,0 +1,25 @@
+Dockerfile will have all it takes for building docker image
+// for ci / cd - as soon as code has been pushed to repo
+create folder called .github\workflow
+create a yaml file inside this folder called main.yaml - already templates are available. This defines workflow
+when there is a commit the git will always check for worksflow file and then the github will execute the yaml file 
+like it will build he docker image, creat the container, push it to the heroku and start the server
+
+build,push and releae a docker container
+
+//For AWS
+Create a ec1 instance
+use winscp to transfer files
+use putty gen to generate private keys
+use putty to log in to to ec2
+make it accesible to world by setting the right security params and the right whitelists
+deploy the app or docker in the aws 
+thats it
+
+
+//git commands
+git add .  
+git commit -m "new commit 1"
+git push origin main
+
+
