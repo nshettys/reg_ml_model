@@ -1,6 +1,5 @@
 flask
 sklearn
-sklearn.preprocessing
 pandas
 numpy
 gunicorn
